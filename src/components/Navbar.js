@@ -22,9 +22,8 @@ export default function Navbar() {
       if (response.data.success) {
         const { bookedSlots } = response.data;
         if (bookedSlots.length > 0) {
-          setBookingData(bookedSlots[0]); // Set the first booking (if there are multiple bookings, handle accordingly)
-          setError(""); // Clear error if successful
-        } else {
+          setBookingData(bookedSlots[0]); 
+          setError(""); 
           setBookingData(null);
           setError("No bookings found for this phone number.");
         }
