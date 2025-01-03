@@ -14,7 +14,7 @@ export default function HeroText() {
         variants={slideDownVariant}
         initial="hidden"
         animate="visible"
-        className="text-white text-[0.7rem]  md:text-[1.1rem] w-[30%] md:w-[30%] lg:my-[1rem] ml-[5rem] lg:w-[15rem]  md:ml-[3rem] p-2"
+        className="text-white text-[0.7rem] relative bottom-4 md:text-[1.1rem] w-[50%] md:w-[30%] lg:my-[1rem] ml-[4rem] lg:w-[15rem]  md:ml-[3rem] p-2"
       >
         <span>We offer an exclusive restaurant</span>{" "}
         <span>reservation service tailored</span>{" "}
@@ -35,7 +35,7 @@ export default function HeroText() {
         </span>
 
         <div>
-          <span className="text-[3rem] xl:text-[3.8rem] md:text-[2.5rem] lg:text-[3rem] leading-tight">
+          <span className="text-[2rem] xl:text-[3.8rem] md:text-[2.5rem] lg:text-[3rem] leading-tight">
             Reserve the Perfect Table
           </span>
           <br />

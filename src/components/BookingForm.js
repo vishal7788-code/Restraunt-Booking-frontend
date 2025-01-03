@@ -90,7 +90,7 @@ export default function BookingForm() {
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         exit={{ opacity: 0, scale: 0.9 }}
-        className="bg-white rounded-lg shadow-lg p-6 w-full max-w-md lg:max-w-lg xl:max-w-xl mx-auto mt-2 xl:mt-15"
+        className="bg-white rounded-lg shadow-lg p-6 w-full max-w-md lg:max-w-lg xl:max-w-xl mx-auto relative top-[4rem] lg:top-[5rem] xl:mt-15"
       >
         <form className="space-y-3 lg:space-y-2 md:space-y-2" onSubmit={handleSubmit}>
           <h3 className="text-lg xl:text-xl font-bold text-center">Book Your Table</h3>

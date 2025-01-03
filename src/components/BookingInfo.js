@@ -27,7 +27,7 @@ export default function BookingInfo({ booking }) {
         initial="hidden"
         animate="visible"
         exit="exit"
-        className="relative  justify-end items-center w-[70%] top-[11rem] p-2 z-50 left-[3rem] lg:hidden xl:hidden md:hidden"
+        className="relative  justify-end items-center w-full top-[11rem] p-2 z-50 left-[-1rem] lg:hidden xl:hidden md:hidden"
       >
         <div className="border-2 border-white w-[70%] mx-auto rounded-lg p-2">
           <div className="w-full bg-white rounded-lg p-2">
