@@ -23,8 +23,8 @@ export default function Navbar() {
         const { bookedSlots } = response.data;
         if (bookedSlots.length > 0) {
           setBookingData(bookedSlots[0]); 
-          setError(""); 
-          setError("No bookings found for this phone number.");
+          setError("")
+          
         }
       } else {
         setError("Error fetching bookings. Please try again.");
