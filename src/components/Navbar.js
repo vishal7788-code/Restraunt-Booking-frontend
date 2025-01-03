@@ -24,7 +24,6 @@ export default function Navbar() {
         if (bookedSlots.length > 0) {
           setBookingData(bookedSlots[0]); 
           setError(""); 
-          setBookingData(null);
           setError("No bookings found for this phone number.");
         }
       } else {
