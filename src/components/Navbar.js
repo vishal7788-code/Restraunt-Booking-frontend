@@ -14,6 +14,8 @@ export default function Navbar() {
   const [error, setError] = useState("");
 
   const handleSearch = async () => {
+    setBookingData(null); 
+    setError("");
     try {
       const response = await axios.get(
         `${process.env.NEXT_PUBLIC_BOOKING_API_ENDPOINT}/getBookings/${phoneNumber}`
