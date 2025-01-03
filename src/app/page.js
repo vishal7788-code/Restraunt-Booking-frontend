@@ -6,7 +6,7 @@ import Navbar from "@/components/Navbar";
 export default function Home() {
   return (
     <div >
-      <div className="w-full h-screen">
+      <div className="w-full h-0">
         <Image
           src={homeImg}
           alt="restaurant booking"

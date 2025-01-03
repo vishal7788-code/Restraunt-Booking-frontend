@@ -27,9 +27,9 @@ export default function BookingInfo({ booking }) {
         initial="hidden"
         animate="visible"
         exit="exit"
-        className="relative justify-end items-center w-[90%] top-[7rem] p-2 z-50 left- lg:hidden xl:hidden md:hidden"
+        className="relative  justify-end items-center w-[70%] top-[11rem] p-2 z-50 left-[3rem] lg:hidden xl:hidden md:hidden"
       >
-        <div className="border-2 border-white w-[80%] mx-auto rounded-lg p-2">
+        <div className="border-2 border-white w-[70%] mx-auto rounded-lg p-2">
           <div className="w-full bg-white rounded-lg p-2">
             <div className="flex justify-between">
               <CircleCheckBig size={55} className="text-gray-500" />
@@ -79,9 +79,9 @@ export default function BookingInfo({ booking }) {
           initial="hidden"
           animate="visible"
           exit="exit"
-          className="relative justify-end items-center w-[80%] top-[6rem] md:w-[50%] p-2 xl:top-[7rem] xl:w-[20rem] xl:left-[75%] z-50 md:left-[55%] lg:left-[49%] lg:flex xl:flex"
+          className="relative justify-end items-center w-[80%] top-[8rem] md:w-[50%] p-2 xl:top-[8rem] xl:w-[20rem] xl:left-[73%] z-50 md:left-[58%] lg:left-[49%] lg:flex xl:flex"
         >
-          <div className="border-2 border-white w-[75%] xl:w-[20rem] rounded-lg p-2">
+          <div className="border-2 border-white w-[70%] xl:w-[20rem] rounded-lg p-2">
             <div className="w-full bg-white rounded-lg p-2">
               <div className="flex justify-between">
                 <CircleCheckBig size={55} className="text-gray-500" />

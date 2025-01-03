@@ -12,7 +12,7 @@ export default function HeroButton() {
         initial={{ scale: 0.5, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.5, ease: "easeOut" }}
-        className="border-2 border-white xl:w-[7rem] xl:h-[7rem] w-[6rem] h-[6rem] lg:w-[6rem] lg:h-[6rem] rounded-full relative lg:left-[50%] left-[35%] md:left-[55%] xl:left-[50%]"
+        className="border-2 border-white xl:w-[7rem] xl:h-[7rem] w-[6rem] h-[6rem]  lg:w-[6rem] lg:h-[6rem] rounded-full relative lg:left-[50%] left-[38%] md:left-[40%]  xl:left-[50%]"
       >
         <motion.div
           initial={{ scale: 0.8, opacity: 0 }}

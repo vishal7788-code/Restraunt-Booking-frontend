@@ -15,7 +15,7 @@ export default function BookingCard() {
       animate="visible"
       className="flex"
     >
-      <div className="w-[80%]  md:w-[30%] lg:w-[25vw] xl:h-[12vh] xl:w-[18vw] lg:h-[13vh] md:h-[13vh] bg-white rounded-xl xl:p-3 p-4 lg:p-2 md:p-3 m-7">
+      <div className="w-[80%] top-[2rem] md:w-[30%] lg:w-[25vw] xl:h-[12vh] xl:w-[18vw] lg:h-[13vh] md:h-[12vh] bg-white rounded-xl xl:p-3 p-4 lg:p-2 md:p-3 m-7">
         <div>
           <div className="flex gap-2 p-1">
             <CheckSquare className="text-green-500" />
